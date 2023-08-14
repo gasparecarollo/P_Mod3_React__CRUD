@@ -3,6 +3,7 @@ import NavBar from './Components/NavBar'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import ShowsList from './Components/Shows Relevant/ShowsList'
+import ShowsNewForm from './Components/Shows Relevant/ShowsNewForm'
 
 // console.log("Some Default Environment Keys:", import.meta.env)
 
@@ -26,7 +27,7 @@ function App() {
 
           <Route path='/' element={<h1>Home</h1>} />
           <Route path='/shows' element={<ShowsList />} />
-          <Route path='/shows/new' element={<h1>Form for New Show</h1>} />
+          <Route path='/shows/new' element={<ShowsNewForm />} />
           <Route path='/movies' element={<h1> All Movies </h1>} />
           <Route path='/movies/new' element={<h1>Form for New Movie </h1>} />
         </Routes>

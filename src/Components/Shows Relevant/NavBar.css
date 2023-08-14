@@ -1,0 +1,8 @@
+.nav-bar-styles {
+
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+}
